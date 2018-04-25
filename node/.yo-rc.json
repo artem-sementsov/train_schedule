@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "train_schedule",
+    "packageName": "ru.netcracker.train_schedule",
+    "packageFolder": "ru/netcracker/train_schedule",
+    "authenticationType": "oauth2",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "gulp",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "09908363dbbfe98bb634fda224eb4e6895ce7d2d",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}

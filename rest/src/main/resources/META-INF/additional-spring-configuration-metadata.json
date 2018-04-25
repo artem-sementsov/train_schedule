@@ -1,0 +1,19 @@
+{
+    "properties": [
+        {
+            "name": "spring.activemq.queue-name",
+            "type": "java.lang.String",
+            "description": "Description for spring.activemq.queue-name."
+        },
+        {
+            "name": "spring.wait.timeout",
+            "type": "java.lang.String",
+            "description": "Description for spring.wait.timeout."
+        },
+        {
+            "name": "spring.wait.sleep",
+            "type": "java.lang.String",
+            "description": "Description for spring.wait.sleep."
+        }
+    ]
+}

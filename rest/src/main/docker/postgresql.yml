@@ -1,0 +1,12 @@
+version: '2'
+services:
+    rest-postgresql:
+        container_name: rest-postgresql
+        image: postgres:9.5.1
+        # volumes:
+        #     - ~/volumes/jhipster/rest/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=rest
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
